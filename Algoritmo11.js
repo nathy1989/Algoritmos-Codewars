@@ -3,7 +3,7 @@
 Cree una función llamada shortcut para eliminar las vocales minúsculas a ( , e, i, o, u) en una cadena dada.*/
 
 const  shortcut = (string) => {
-    return string.replace(/[aeiou]/gi, '');
+    return string.replace(/[aeiou]+/g, '');
 
 }
 
