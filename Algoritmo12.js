@@ -1,11 +1,15 @@
-/*Ejercicio 12: Agregar longitud
+/*Algoritmo 12: Eliminador de vocales
 
-¿Qué pasa si necesitamos que la longitud de las palabras separadas por un espacio se agregue al final de esa misma palabra y se devuelva como una matriz?*/
+Cree una función llamada shortcut para eliminar las vocales minúsculas a ( , e, i, o, u) en una cadena dada.*/
 
-const addLength = (str) => {
-    return str.split(" ").map((element) => element + " " + element.length)
-}     
+const  shortcut = (string) => {
+    return string.replace(/[aeiou]+/g, '');
 
-console.log(addLength('you will win'))
-console.log(addLength('apple ban'))
+}
 
+  console.log(shortcut('hello')) //
+  console.log(shortcut('how are you today?'))// 
+  console.log(shortcut('complain'))
+  console.log(shortcut('never'))
+
+/*Interpretación: */

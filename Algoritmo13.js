@@ -1,13 +1,11 @@
-/*Ejercicio 13: Corto Largo Corto
+/*Ejercicio 13: Agregar longitud
 
-Dadas 2 cadenas, ay b, devuelve una cadena de la forma corta+larga+corta, con la cadena más corta en el exterior y la cadena más larga en el interior. Las cadenas no tendrán la misma longitud, pero pueden estar vacías ( zerolongitud).*/
+¿Qué pasa si necesitamos que la longitud de las palabras separadas por un espacio se agregue al final de esa misma palabra y se devuelva como una matriz?*/
 
-const solution = (a, b) => {
-    return a.length >= b.length ? b + a + b : a + b + a
+const addLength = (str) => {
+    return str.split(" ").map((element) => element + " " + element.length)
 }     
 
-console.log(solution('45', '1'))
-console.log(solution('13', '200'))
-console.log(solution('Soon', 'Me'))
-console.log(solution('U', 'False'))
+console.log(addLength('you will win'))
+console.log(addLength('apple ban'))
 

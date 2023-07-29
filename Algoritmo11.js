@@ -1,15 +1,16 @@
-/*Algoritmo 11: Eliminador de vocales
+/*Algoritmo 11: Convertir un booleano en una cadena
 
-Cree una función llamada shortcut para eliminar las vocales minúsculas a ( , e, i, o, u) en una cadena dada.*/
+Implemente una función que convierta el valor booleano dado en su representación de cadena.
+Nota: Solo se darán entradas válidas.*/
 
-const  shortcut = (string) => {
-    return string.replace(/[aeiou]+/g, '');
-
+const  booleanToString = (b) => {
+    return String(b);
 }
 
-  console.log(shortcut('hello')) //
-  console.log(shortcut('how are you today?'))// 
-  console.log(shortcut('complain'))
-  console.log(shortcut('never'))
+//return b.toString()
+//return b ? 'true' : 'false'
+
+  console.log(booleanToString(true)) //
+  console.log(booleanToString(false))// 
 
 /*Interpretación: */

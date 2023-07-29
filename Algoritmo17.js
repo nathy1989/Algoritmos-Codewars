@@ -1,11 +1,13 @@
-/*Ejercicio 17:Grasshopper - Depuración de sintaxis de funciones
+/*Ejercicio 17: Multiplicar 
 
-Un estudiante estaba trabajando en una función y cometió algunos errores de sintaxis mientras codificaba. Ayúdalos a encontrar sus errores y corregirlos.
+Este código no se ejecuta correctamente. Trate de averiguar por qué.
 */
 
-const main = (verb, noun) => {
-    return verb + noun
+const multiply = (a, b) => {
+    return a * b;
 }
 
-console.log(main('take ', 'item'))
-console.log(main('use ', 'sword'))
+console.log(multiply(1,1))
+console.log(multiply(2,1))
+console.log(multiply(2,2))
+console.log(multiply(3,5))

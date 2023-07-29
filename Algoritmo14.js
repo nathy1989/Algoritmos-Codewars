@@ -1,15 +1,13 @@
-/*Ejercicio 14: ¿Qué hay entre?
+/*Ejercicio 14: Corto Largo Corto
 
-Complete la función que toma dos enteros ( a, b, where a < b) y devuelva una matriz de todos los enteros entre los parámetros de entrada, incluidos ellos.*/
+Dadas 2 cadenas, ay b, devuelve una cadena de la forma corta+larga+corta, con la cadena más corta en el exterior y la cadena más larga en el interior. Las cadenas no tendrán la misma longitud, pero pueden estar vacías ( zerolongitud).*/
 
-const  between = (a, b) => {
-    const element = []
-    for(let i = a; i <= b; i++){
-    element.push(i)
-   }return element
+const solution = (a, b) => {
+    return a.length >= b.length ? b + a + b : a + b + a
 }     
 
-console.log(between(1, 4))
-console.log(between(-2, 2))
-
+console.log(solution('45', '1'))
+console.log(solution('13', '200'))
+console.log(solution('Soon', 'Me'))
+console.log(solution('U', 'False'))
 

@@ -1,16 +1,20 @@
-/*Algoritmo 10: Convertir un booleano en una cadena
+/*Algoritmo 10:Eliminar duplicados de la lista
 
-Implemente una función que convierta el valor booleano dado en su representación de cadena.
-Nota: Solo se darán entradas válidas.*/
+Defina una función que elimine los duplicados de una matriz de números no negativos y los devuelva como resultado.
 
-const  booleanToString = (b) => {
-    return String(b);
+El orden de la secuencia tiene que permanecer igual.*/
+
+const  distinct = (a) => {
+      return a.filter((valor, indice) => {
+      return a.indexOf(valor) === indice;
+  });
 }
 
-//return b.toString()
-//return b ? 'true' : 'false'
+//return [...new Set(a)];
+//return Array.from(new Set(a));
 
-  console.log(booleanToString(true)) //
-  console.log(booleanToString(false))// 
+  console.log(distinct([1])) //
+  console.log(distinct([1,2]))//
+  console.log(distinct([1,1,2]))
 
 /*Interpretación: */

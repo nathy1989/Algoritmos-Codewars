@@ -1,20 +1,12 @@
-/*Algoritmo 9:Eliminar duplicados de la lista
+/*Algoritmo 9: Rompe Oraciones
 
-Defina una función que elimine los duplicados de una matriz de números no negativos y los devuelva como resultado.
+Escriba una función que tome una serie de palabras y las junte en una oración y devuelva la oración. Puede ignorar cualquier necesidad de desinfectar palabras o agregar puntuación, pero debe agregar espacios entre cada palabra. ¡Cuidado, no debe haber un espacio al principio o al final de la oración!*/
 
-El orden de la secuencia tiene que permanecer igual.*/
+  const smash = (words) => {
+      return words.join(" ")
+  }
 
-const  distinct = (a) => {
-      return a.filter((valor, indice) => {
-      return a.indexOf(valor) === indice;
-  });
-}
+  console.log(smash(["hello", "world"])) 
+  console.log(smash(["hello", "amazing", "world"]))
+  console.log(smash(["this", "is", "a", "really", "long", "sentence"]))
 
-//return [...new Set(a)];
-//return Array.from(new Set(a));
-
-  console.log(distinct([1])) //
-  console.log(distinct([1,2]))//
-  console.log(distinct([1,1,2]))
-
-/*Interpretación: */
