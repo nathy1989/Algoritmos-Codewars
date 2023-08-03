@@ -1,20 +1,22 @@
-/*Ejercicio 38: Super Duper Easy
+/*Ejercicio 38: Grasshopper - Depuración de sintaxis if/else
 
-Cree una función que devuelva el valor multiplicado por 50 y aumentado por 6. Si el valor ingresado es una cadena, debe devolver "Error".*/
+Mientras creaba un juego, su compañero, Greg, decidió crear una función para verificar si el usuario aún está vivo llamada checkAlive// . Desafortunadamente, Greg cometió algunos errores al crear la función.CheckAlivecheck_alive
 
-const problem = (x) => {
-    if(typeof(x) === "string"){
-        return "Error"
-    }else{
-        return (x * 50) + 6
-    }
+checkAlive// debería devolver verdadero si la salud del jugador es mayor que 0 CheckAliveo check_alivefalso si es 0 o menor.
+
+La función recibe un parámetro healthque siempre será un número entero entre -10 y 10.*/
+
+const checkAlive = (health) => {
+    if (health > 0) {
+        return true;
+      } else{
+        return false;
+      }
 }
 
-//typeof x === 'string' ? 'Error' : x * 50 + 6;
+//return health > 0;
 
+console.log(checkAlive(5))
+console.log(checkAlive(0))
 
-console.log(problem("hello"))
-console.log(problem(1))
-console.log(problem(5))
-console.log(problem(0))
 
