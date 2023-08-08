@@ -13,3 +13,5 @@ console.log(arrayPlusArray([1, 2, 3], [4, 5, 6]))
 console.log(arrayPlusArray([-1, -2, -3], [-4, -5, -6]))
 console.log(arrayPlusArray([0, 0, 0], [4, 5, 6]))
 console.log(arrayPlusArray([100, 200, 300], [400, 500, 600]))
+
+/*Interpretación: utilicé el método concat para unir los array en uno nuevo y el método reduce para devolver como resultado un único valor*/

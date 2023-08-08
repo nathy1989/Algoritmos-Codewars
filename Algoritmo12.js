@@ -7,9 +7,9 @@ const  shortcut = (string) => {
 
 }
 
-  console.log(shortcut('hello')) //
-  console.log(shortcut('how are you today?'))// 
+  console.log(shortcut('hello')) 
+  console.log(shortcut('how are you today?'))
   console.log(shortcut('complain'))
   console.log(shortcut('never'))
 
-/*Interpretación: */
+/*Interpretación: utilicé este método, en este caso no con una cadena sino con una expresión regular*/

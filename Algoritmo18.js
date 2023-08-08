@@ -10,3 +10,5 @@ const reverseSeq = n => {
 }
 
 console.log(reverseSeq(5))
+
+/*Interpretación: se declara la variable arr con un arreglo vacio, para almacenar la secuencia de números, luego utilizo bucle for que inicia con el valor n, se ejecuta si i es mayor que 0  y el valor i  se decrementa en uno luego el .push para añadir más elementos al final del array*/

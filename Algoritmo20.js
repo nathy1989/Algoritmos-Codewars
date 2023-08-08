@@ -15,4 +15,5 @@ console.log(sumMul(0,0))
 console.log(sumMul(2,9))
 console.log(sumMul(4,-7))
 
+/*Interpretación: se declara la variable arr con un arreglo vacio, para almacenar la secuencia de números, luego utilizo bucle for que inicia con el valor n, se ejecuta si i es menor que m  y el valor i  se incrementa igual a n, luego el .push para añadir más elementos al final del array y finalmente un return con un operador condicional que contiene el método reduce*/
 

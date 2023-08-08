@@ -15,5 +15,4 @@ console.log(noBoringZeros(1450))
 console.log(noBoringZeros(96000))
 console.log(noBoringZeros(1050))
 console.log(noBoringZeros(-1050))
-
-/*Interpretación:*/
+/*Interpretación:toString (nos devuleve un cadena); split ( me divide una cadena de texto en un arreglo de subcadenas); reverse (me ayuda a que el primer elemento pasa a ser el último y el último pasa a ser el primero); join (une todos los elementos de una matriz) */

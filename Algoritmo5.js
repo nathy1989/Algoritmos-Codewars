@@ -12,3 +12,5 @@ console.log(isPalindrome("a"))
 console.log(isPalindrome("aba"))
 console.log(isPalindrome("hello"))
 console.log(isPalindrome("Bob"))
+
+/*Interpretación: utilicé el método replace (se utiliza para buscar y reemplazar una parte específica de una cadena de texto por otra subcadena) toLowerCase ( se utiliza para convertir una cadena de texto en minúsculas) split ( me divide una cadena de texto en un arreglo de subcadenas) join (une todos los elementos de una matriz) */

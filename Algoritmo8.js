@@ -9,4 +9,4 @@ const  stringToArray = (string) => {
   console.log(stringToArray("Robin Singh")) //["Robin", "Singh"]
   console.log(stringToArray("I love arrays they are my favorite"))//["I", "love", "arrays", "they", "are", "my", "favorite"]  
 
-/*Interpretación: */
+/*Interpretación: utilicé el método split ya que me divide una cadena de texto en un arreglo de subcadenas*/

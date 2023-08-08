@@ -13,8 +13,8 @@ const  distinct = (a) => {
 //return [...new Set(a)];
 //return Array.from(new Set(a));
 
-  console.log(distinct([1])) //
-  console.log(distinct([1,2]))//
+  console.log(distinct([1])) 
+  console.log(distinct([1,2]))
   console.log(distinct([1,1,2]))
 
-/*Interpretación: */
+/*Interpretación: filter() crea un nuevo array con todos los elementos que cumplan la condición implementada por la función dada y indexOf() retorna el primer índice en el que se puede encontrar un elemento dado en el array, ó retorna -1 si el elemento no esta presente*/

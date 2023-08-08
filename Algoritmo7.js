@@ -13,4 +13,4 @@ const  getChar = (c) => {
   console.log(getChar(58))
   console.log(getChar(59))
   
-/*Interpretación: */
+/*Interpretación: Método String.fromCharCode devuelve una cadena creada mediante el uso de una secuencia de valores Unicode especificada.*/

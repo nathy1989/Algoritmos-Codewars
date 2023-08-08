@@ -10,3 +10,4 @@ Escriba una función que tome una serie de palabras y las junte en una oración 
   console.log(smash(["hello", "amazing", "world"]))
   console.log(smash(["this", "is", "a", "really", "long", "sentence"]))
 
+/*Interpretación: join, une todos los elementos de una matriz*/

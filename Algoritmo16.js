@@ -9,3 +9,5 @@ const boolToWord = (bool) => {
 
 console.log(boolToWord(true))
 console.log(boolToWord(false))
+
+/*Interpretación: Utilicé el operador ternario, compuesto la condición, en caso de que se cumpla esa condición se ejecuta la expresi+on 1, de lo contrario la expresión 2*/

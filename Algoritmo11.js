@@ -4,13 +4,13 @@ Implemente una función que convierta el valor booleano dado en su representaci�
 Nota: Solo se darán entradas válidas.*/
 
 const  booleanToString = (b) => {
-    return String(b);
+    return b.toString();
 }
 
 //return b.toString()
 //return b ? 'true' : 'false'
 
-  console.log(booleanToString(true)) //
-  console.log(booleanToString(false))// 
+  console.log(booleanToString(true)) 
+  console.log(booleanToString(false)) 
 
-/*Interpretación: */
+/*Interpretación: toString este método me devuleve un booleano o una cadena*/
