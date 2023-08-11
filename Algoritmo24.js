@@ -11,3 +11,5 @@ const capitalizeWord = (word) => {
 console.log(capitalizeWord('word'))
 console.log(capitalizeWord('i'))
 console.log(capitalizeWord('glasswear'))
+
+/*Interpretación: utilicé el método charAt para acceder al primer carácter del string, luego el toUpperCase() para convertir ese caracter en mayúscula y finalmente concatené word.slice(1) para mantener el resto de la palabra después de la primera letra*/

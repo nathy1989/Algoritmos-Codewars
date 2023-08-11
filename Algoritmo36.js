@@ -12,3 +12,4 @@ console.log(opposite(0))
 console.log(opposite(4.25))
 console.log(opposite(-12525220.3325))
 
+/*Interpretación: utilizo el operador ternario dandole la condición si number es mayor a 0, que lo multiplique por -1 y si en menor a 0 que también lo multiplique por -1 y así devolverá los opuestos a los negativos y positivos */

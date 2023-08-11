@@ -16,3 +16,5 @@ console.log(oddOrEven([0]))
 console.log(oddOrEven([1]))
 console.log(oddOrEven([]))
 console.log(oddOrEven([0, 1, 2]))
+
+/*Interpretación: Utilizo el método reduce para devolver como resultado un único valor, luego que me retorne con un operador condicional para que me retornora "even" ó "odd"*/

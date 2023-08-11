@@ -5,18 +5,19 @@ Don Drumphet vive en un bonito barrio, pero uno de sus vecinos ha empezado a alq
 Su código mostrará el nombre completo del vecino y la versión truncada del nombre como una matriz. Si el número de caracteres en el nombre es menor o igual a dos, devolverá una matriz que contiene solo el nombre tal cual"*/
 
 const whoIsPaying = (name) => {
-    if (name.length <= 2){
-        return name
-    }else {
-        const nuevoNombre = name.substring(0, 2)
-        return [name, nuevoNombre];
-}
+    return name.length <= 2 ? [name] : [name,name.slice(0,2)]
 }
 
-//return name.length <= 2 ? [name] : [name,name.slice(0,2)]
+/* if (name.length <= 2){
+    return name
+}else {
+    const nuevoNombre = name.substring(0, 2)
+    return [name, nuevoNombre];
+} */
 
 console.log(whoIsPaying("Mexico"))
 console.log(whoIsPaying("Melania"))
 console.log(whoIsPaying("Melissa"))
 console.log(whoIsPaying("Me"))
 
+/*Interpretación: utilizo un operador ternario donde incialmente verifico si name es menor o igual a dos de ser así que me devuelva en nombre exactamente igual , de lo contrario que me devuelva sólo las dos primeras letras del nombre utilizando el método slice*/

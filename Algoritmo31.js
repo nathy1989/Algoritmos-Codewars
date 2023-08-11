@@ -17,3 +17,4 @@ const countSheeps = (arrayOfSheep) => {
 
 console.log(countSheeps(array1))
 
+/*Interpretación: Declaro la variable let contar en 0, para que allí me vaya almacenando las conincidencias con true, del arreglo. Utilizo un bucle for para que me recorra el arreglo y por ultimo en el if , se verifica si el elemento en la posición i del arreglo es igual a true. Si es así, se incrementa el valor de contar en 1. Esto significa que se encontró una oveja presente y que retorne el valor de contar para que me diga la cantidad de ovejas con true en el arreglo*/

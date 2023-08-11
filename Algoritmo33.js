@@ -23,3 +23,4 @@ console.log(cookie(26))
 console.log(cookie(2.3))
 console.log(cookie(true))
 
+/*Interpretación: utilizo una condicional if donde verifico si X es una cadena de texto, de ser así que me retorne si la galleta fue comida por Zach, luego si la condición anterior no se cumple, verifica si x e de tipo numérico, de ser así me retorna que la galleta fue comida por Mónica  y si ninguna de las anteriores se cumplen, entonces, que me retorne que la galleta fue comida por el perro*/

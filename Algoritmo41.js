@@ -14,9 +14,8 @@ const joinStrings = (string1, string2) => {
     return `${string1} ${string2}`
 }
 
-
 console.log(joinStrings('string1', 'string2'))
 console.log(joinStrings('testing', 'testing'))
 console.log(joinStrings(134, 234))
 
-
+/*Interpretación: Se utiliza un template string para unir las dos cadenas*/

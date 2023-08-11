@@ -19,4 +19,5 @@ const checkAlive = (health) => {
 console.log(checkAlive(5))
 console.log(checkAlive(0))
 
+/*Interpretación: simplemente se verifica si health es mayor a 0 retorne true de lo contrario retorne false */
 

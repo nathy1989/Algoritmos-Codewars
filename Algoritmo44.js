@@ -12,4 +12,4 @@ console.log(solution(null))
 console.log(solution([]))
 console.log(solution([20, 2, 10]))
 
-
+/*Interpretación: se utiliza operador ternario, le entrego la condición de si nums es null me entregue la matriz vacía de lo contrario utilizo el mpetodo sort para ordenar los elementos del arreglo*/

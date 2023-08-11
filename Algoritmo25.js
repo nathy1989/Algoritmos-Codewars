@@ -9,3 +9,5 @@ const main = (verb, noun) => {
 
 console.log(main('take ', 'item'))
 console.log(main('use ', 'sword'))
+
+/*Interpretación: se corrige sintaxis */

@@ -6,7 +6,7 @@ Por ejemplo, si los parámetros pasados son , la función debe devolver como 2, 
 */
 
 const findMultiples = (integer, limit) => {
-    const num = []
+    let num = []
     for(let i = integer; i <= limit; i+= integer){
         num.push(i)
     }return num
@@ -18,4 +18,5 @@ console.log(findMultiples(5, 7))
 console.log(findMultiples(4, 27))
 console.log(findMultiples(11, 54))
 
+/*Interpretación: se declara la variable num con un arreglo vacio, para almacenar la secuencia de los multiplos, luego utilizo bucle for que inicia con el valor integer, se ejecuta si i es menor que limit  y el valor i  se incrementa igual a integer, luego el .push para añadir más elementos al final del array */
 

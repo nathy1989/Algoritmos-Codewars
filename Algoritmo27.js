@@ -23,3 +23,5 @@ console.log(pipeFix([1,2,3,5,6,8,9]))
 console.log(pipeFix([1,2,3,12]))
 console.log(pipeFix([6,9]))
 console.log(pipeFix([-1,4]))
+
+/*Interpretación: Utilizo el Math.min para que me de el número menor del arreglo, luego utilizo el operador de propagación (...) para poder separar los elementos del arreglo y este valor mínimo se guardará en la variable min, luego realizo el mismo procedimiento con el número de máximo valor y declaro la variable newList para que se almacenen todos los números desde el mínimo al máximo, por ultimo utilizo un bucle para iterar en todos los elementos y se vaya agregando a la nueva mtriz newList y que me retorne*/

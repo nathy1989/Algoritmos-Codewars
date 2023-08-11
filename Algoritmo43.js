@@ -7,9 +7,9 @@ const greet = (name) => {
     return `Hello, ${name} how are you doing today?` 
 }
 
-
 console.log(greet("Ryan"))
 console.log(greet("Shingles"))
-c
+
+/*Interpretación: se utiliza un template string para poder que devuelva la declaración de salida como lo solicitan*/
 
 

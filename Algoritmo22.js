@@ -9,3 +9,5 @@ const removeChar = (str) => {
 console.log(removeChar('eloquent'))
 console.log(removeChar('country'))
 console.log(removeChar('person'))
+
+/*Interpretación: utilicé el método slice para eliminar el primer y último carácter de la cadena, utilizando 1 para el inicio  y -1 para hacer refencia al último caracter*/
