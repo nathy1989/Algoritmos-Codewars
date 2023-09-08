@@ -1,14 +1,20 @@
-/*Ejercicio 46:  Métodos del objeto String--concat() split() y su buen amigo join()
+/*Ejercicio 47:  Trimestre del año
 
-Implemente una función que acepte 2 argumentos: string y separator.
+Dado un mes como un número entero del 1 al 12, regrese a qué trimestre del año pertenece como un número entero.
 
-El algoritmo esperado: dividir stringen palabras por espacios, dividir cada palabra en caracteres separados y unirlos nuevamente con el especificado separator, unir todas las "palabras" resultantes nuevamente en una oración con espacios.*/
+Por ejemplo: el mes 2 (febrero), forma parte del primer trimestre; el mes 6 (junio), forma parte del segundo trimestre; y el mes 11 (noviembre), forma parte del cuarto trimestre.*/
 
-const splitAndMerge = (string, separator) =>{
-    return string.split(" ").map(word=>word.split("").join(separator)).join(" ")
-}
-    
-console.log(splitAndMerge("My name is John"," "))
-console.log(splitAndMerge("My name is John","-"));
-console.log(splitAndMerge("Hello World!","."));
-console.log(splitAndMerge("Hello World!",","))
+const quarterOf = (month) => {
+    return Math.ceil(month / 3)
+    /* if (month < 1 || month > 12) {
+        return "Mes inválido";
+    }  
+    const trimestre = Math.ceil(month/3);
+      return trimestre; */
+    }
+
+console.log(quarterOf(3))
+console.log(quarterOf(8))
+console.log(quarterOf(11))
+
+/*Interpretación: La función Math.ceil()devuelve el entero mayor o igual más próximo a un número dado*/

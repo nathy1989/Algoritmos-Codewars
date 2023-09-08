@@ -1,14 +1,12 @@
-/*Ejercicio 46:  Métodos del objeto String--concat() split() y su buen amigo join()
+/*Ejercicio 50: Convertir número a matriz invertida de dígitos
 
-Implemente una función que acepte 2 argumentos: string y separator.
+Dado un número aleatorio no negativo, debe devolver los dígitos de este número dentro de una matriz en orden inverso.*/
 
-El algoritmo esperado: dividir stringen palabras por espacios, dividir cada palabra en caracteres separados y unirlos nuevamente con el especificado separator, unir todas las "palabras" resultantes nuevamente en una oración con espacios.*/
-
-const splitAndMerge = (string, separator) =>{
-    return string.split(" ").map(word=>word.split("").join(separator)).join(" ")
+const digitize = (n) =>{
+    return [...n.toString()].map(Number).reverse()
 }
     
-console.log(splitAndMerge("My name is John"," "))
-console.log(splitAndMerge("My name is John","-"));
-console.log(splitAndMerge("Hello World!","."));
-console.log(splitAndMerge("Hello World!",","))
+console.log(digitize(35231))
+console.log(digitize(0));
+
+
