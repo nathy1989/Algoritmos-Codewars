@@ -1,14 +1,11 @@
 /*Algoritmo 69: Eliminar el primer y el último personaje, segunda parte
 
 Se le proporciona una cadena que contiene una secuencia de secuencias de caracteres separadas por comas.
-
 Escribe una función que devuelva una nueva cadena que contenga las mismas secuencias de caracteres excepto la primera y la última, pero esta vez separadas por espacios.
-
 Si la cadena de entrada está vacía o la eliminación del primer y último elemento causaría que la cadena resultante estuviera vacía, devuelva un valor vacío (representado como un valor genérico NULLen los ejemplos siguientes).*/
 
 const  array = (string) => {
-    const matriz = string.split(",");
-    
+    const matriz = string.split(",");    
     if(matriz.length >= 3){
         matriz.shift();
         matriz.pop();

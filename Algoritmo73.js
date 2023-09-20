@@ -37,7 +37,6 @@ console.log(sheareBookReduce(books))
 console.log(sheareBook(books))
 
 const array = ["Luis", 3, "Nathy", "Pedro", "HTML"]
-
  const [, , , Cinco] = array
 
  console.log((Cinco))

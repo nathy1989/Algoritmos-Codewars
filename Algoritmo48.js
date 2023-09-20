@@ -1,9 +1,7 @@
 /*Ejercicio 48:  Una aguja en el pajar
 
 Escribe una función findNeedle()que tome mucha "haystack" pero que contenga una"needle"
-
 Después de que su función encuentre la aguja, debería devolver un mensaje (como una cadena) que diga:
-
 "found the needle at position "además indexencontró la aguja, entonces:
 
 Ejemplo (Entrada --> Salida)*/
