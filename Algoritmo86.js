@@ -1,4 +1,4 @@
-/*. Buscar elemento en un array de objetos:
+/*8. Buscar elemento en un array de objetos:
 
 Enunciado: Escribe una función que busque un elemento en un array de objetos por una propiedad específica y devuelva el objeto encontrado.
 Ejemplo de entrada y salida:
