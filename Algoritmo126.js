@@ -7,12 +7,10 @@ Su función se probará con ejemplos prediseñados y aleatorios.
 
 Si puedes, intenta escribirlo en una línea de código.*/
 
-const findDifference = (a, b) => (a[0] * a[1] * a[2])-(b[0] * b[1] * b[2])
-    /* const resultA = a[0] * a[1] * a[2];
-    const resultB = b[0] * b[1] * b[2];
-    return resultA - resultB */
-
-  
+const findDifference = (a, b) => {
+    return Math.abs(a[0] * a[1] * a[2] - b[0] * b[1] * b[2])
+}
+ 
 
 console.log(findDifference([3, 2, 5], [1, 4, 4]))
 console.log(findDifference([9, 7, 2], [5, 2, 2]))

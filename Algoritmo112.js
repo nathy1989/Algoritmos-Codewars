@@ -8,3 +8,5 @@ const nthEven = (n) => {
 console.log(nthEven(1))
 console.log(nthEven(2))
 console.log(nthEven(3))
+
+//Utilice el n-1

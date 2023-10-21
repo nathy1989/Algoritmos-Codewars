@@ -113,4 +113,56 @@ const contarPropiedades = Object.keys(producto).length
 console.log(contarPropiedades)
 
 
+//Object.keys  crea una matriz que contiene las claves de un objeto.
+const employees = {
+	boss: 'Michael',
+	secretary: 'Pam',
+	sales: 'Jim',
+	accountant: 'Oscar'
+};
 
+const keys = Object.keys(employees);
+
+console.log(keys);
+
+//Object.values() crea una matriz que contiene los valores de un objeto.
+
+const session = {
+    id: 1,
+    time: `26-July-2018`,
+    device: 'mobile',
+    browser: 'Chrome'
+};
+
+// Get all values of the object
+const values = Object.values(session);
+
+console.log(values);
+
+//Object.entries()crea una matriz anidada con los pares clave-valor de un objeto.
+
+const operatingSystem = {
+    name: 'Ubuntu',
+    version: 18.04,
+    license: 'Open Source'
+};
+
+const entries = Object.entries(operatingSystem);
+
+console.log(entries);
+
+//Object.assign() se usa para copiar valores de un objeto a otro.
+
+const name = {
+    firstName: 'Philip',
+    lastName: 'Fry'
+};
+
+const details = {
+    job: 'Delivery Boy',
+    employer: 'Planet Express'
+};
+
+const character = Object.assign(name, details);
+
+console.log(character);
