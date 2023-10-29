@@ -47,6 +47,12 @@ console.log(areaTriangle(5, 8))
 //Ejemplo de entrada: cadena = "hola"
 //Salida esperada: aloh
 
+const reverseString = (str) => {
+    return str.split("").reverse().join("")
+}
+
+console.log(reverseString("hola"))
+
 //Calcular el factorial de un número
 //Planteamiento: Pide al usuario un número y calcula su factorial.
 //Ejemplo de entrada: n = 5

@@ -166,3 +166,15 @@ const details = {
 const character = Object.assign(name, details);
 
 console.log(character);
+
+//Realizar una funcion que reciba un array de strings y debe retornar un objeto, enumerando las propiedades del 0 a la n donde su valor sea la longitud de cada string. Entrada: ["Miami", "California"], Salida: { '0': 5, '1': 10 }
+
+const arrayString = (arr) => {
+    let obj = {}
+    arr.map((item, index)=>{
+        obj[index] = item.length
+    })
+    return obj
+}
+
+console.log(arrayString(["Miami", "California"]))

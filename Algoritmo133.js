@@ -9,17 +9,12 @@
 //¡Buena suerte!
 
 const solve = (arr) => {
-    const lastIndexMap = arr.reduce((map, number, index) => {
-      map[number] = index;
-      return map;
-    }, {});
-    const result = arr.filter((number, index) => lastIndexMap[number] === index);
-    return result;
-  };
-
-  // return arr.filter((val,i) => arr.lastIndexOf(val) == i);
+  return arr.filter((curr,acc) => arr.lastIndexOf(curr) === acc);
+  }
 
 console.log(solve([3,4,4,3,6,3]))
 console.log(solve([1,2,1,2,1,2,3]))
 console.log(solve([1,2,3,4]))
 console.log(solve([1,1,4,5,1,2,1]))
+
+//Declaro una función con el nombre solve, que almacena como parámetro un array de números, y utilizo el método de lastIndexOf para poder encontrar la ultima ocurrencia de un carácter
